@@ -1,0 +1,955 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    
+}
+
+
+.main-paragraph{
+    font-size: 18px;
+
+}
+
+.main-about{
+    margin-left:50px;
+    max-width: 50%; 
+    height: 40px;
+}
+/* SHOWCASE */
+
+
+.showcase {
+    color: #00008b ; /* This is the color code for dark blue */
+}
+
+.showcase-heading{
+
+
+    font-size: 42px;
+    font-family: 'Nunito', sans-serif;
+    color: #0b0b7a ;
+    font-weight: bold;
+}
+
+
+
+/* ABOUT */
+.abouta{
+    background-color: #4154f1;
+    text-decoration: none;
+
+}
+
+.contentabout{
+    background-color: #f6f9ff;
+    padding: 40px;
+    
+}
+
+
+
+/* Value */
+.box {
+    padding: 40px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 400px;
+}
+
+.box img {
+    transition: transform 0.5s ease;  /* Apply transition for smooth effect */
+}
+
+.boximage{
+    max-width: 200px;
+}
+
+.box:hover img {
+    transform: scale(0.9);  /* Adjust the scale factor as needed */
+}
+
+
+/* FEATURES */
+
+/* Add this rule to adjust the left margin of h4 elements */
+.features .feature-icons .content .icon-box h4 {
+    margin-left: 0px; /* Adjust the value according to your preference */
+}
+
+selector {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.feature-box {
+    margin: 10px 5px 10px 5px;
+}
+
+.features .feature-icons .content .icon-box i {
+    font-size: 44px;
+    line-height: 44px;
+    color: #0245bc;
+    margin-right: 15px;
+}
+
+.features .feature-icons .content .icon-box {
+    display: flex;
+}
+
+  
+
+
+
+/*Services-> Card Two */
+
+.cardtwo {
+    border-bottom: 5px solid burlywood;
+    
+
+    /* border-bottom: 4px solid burlywood; /* Adjust the color and thickness of the bottom border  */
+} 
+
+.cardtwo:hover{
+
+    .cardtwori{
+        color: aliceblue;
+    }
+
+
+    .bicardtwo{
+        color: aliceblue;
+    }
+    .read-more-two{
+
+        background-color: burlywood;
+        color: aliceblue;
+        border-color: burlywood;
+    }
+    background-color: burlywood;
+    color: aliceblue;
+    border-color: burlywood;
+
+}
+
+.cardtwori{
+    color: burlywood;
+}
+
+.read-more-two{
+    text-decoration: none;
+    color: burlywood;
+    
+}
+
+.bicardtwo{
+    color: burlywood;
+}
+
+
+
+
+/*Services-> Card One */
+.cardone {
+    border-bottom: 5px solid #2db6fa;
+    
+
+    border-bottom: 4px solid #2db6fa; /* Adjust the color and thickness of the bottom border */
+}
+
+.cardone:hover{
+
+    background-color: #2db6fa;
+    color: aliceblue;
+    border-color: #2db6fa;
+    .cardoneri{
+        color: aliceblue;
+        
+    }
+
+
+    .bicardone{
+        color: aliceblue;
+    }
+    .read-more-one{
+
+        background-color: #2db6fa;
+        color: aliceblue;
+        border-color: #2db6fa;
+    }
+
+
+}
+
+.cardoneri{
+    color: #2db6fa;
+    
+}
+
+.read-more-one{
+    text-decoration: none;
+    color: #2db6fa;
+}
+
+.bicardone{
+    color: #2db6fa;
+}
+
+
+/*Services-> Card Three= */
+
+.cardthree {
+    border-bottom: 5px solid #08da4e;
+    
+
+    border-bottom: 4px solid #08da4e; /* Adjust the color and thickness of the bottom border */
+}
+
+.cardthree:hover{
+    background-color: #08da4e;
+    color: aliceblue;
+    border-color: #08da4e;
+
+    .cardthreeri{
+        color: aliceblue;
+    }
+
+    .bicardthree{
+        color: aliceblue;
+    }
+    .read-more-three{
+
+        background-color: #08da4e;
+        color: aliceblue;
+        border-color: #08da4e;
+    }
+    
+}
+
+.cardthreeri{
+    color: #08da4e;
+}
+
+.read-more-three{
+    text-decoration: none;
+    color: #08da4e;
+}
+
+.bicardthree{
+    color: #08da4e;
+}
+
+
+/*Services-> Card Four */
+
+.cardfour {
+    border-bottom: 5px solid #e9222c;
+    
+
+    border-bottom: 4px solid #e9222c; /* Adjust the color and thickness of the bottom border */
+}
+
+.cardfour:hover{
+
+    background-color: #e9222c;
+    color: aliceblue;
+    border-color: #e9222c;
+    .cardfourri{
+        color: aliceblue;
+    }
+
+    .bicardfour{
+        color: aliceblue;
+    }
+    .read-more-four{
+
+        background-color: #e9222c;
+        color: aliceblue;
+        border-color: #e9222c;
+    }
+    
+}
+
+.cardfourri{
+    color: #e9222c;
+}
+
+.read-more-four{
+    text-decoration: none;
+    color: #e9222c;
+}
+
+.bicardfour{
+    color: #e9222c;
+}
+
+
+
+/*Services-> Card Five */
+
+.cardfive {
+    border-bottom: 5px solid #b50edf;
+    
+
+    border-bottom: 4px solid #b50edf; /* Adjust the color and thickness of the bottom border */
+}
+
+.cardfive:hover{
+    background-color: #b50edf;
+    color: aliceblue;
+    border-color: #b50edf;
+
+    .cardfiveri{
+        color: aliceblue;
+    }
+
+    .bicardfive{
+        color: aliceblue;
+    }
+
+    .read-more-five{
+
+        background-color: #b50edf;
+        color: aliceblue;
+        border-color: #b50edf;
+    }
+}
+
+.cardfiveri{
+    color: #b50edf;
+}
+
+.read-more-five{
+    text-decoration: none;
+    color: #b50edf;
+}
+
+.bicardfive{
+    color: #b50edf;
+}
+
+
+/*Services-> Card Six */
+
+.cardsix {
+    border-bottom: 5px solid #f51f9c;
+    
+    
+    border-bottom: 4px solid #f51f9c; /* Adjust the color and thickness of the bottom border */
+}
+
+.cardsix:hover{
+    background-color: #f51f9c;
+    color: aliceblue;
+    border-color: #f51f9c;
+    
+    .cardsixri{
+        color: aliceblue;
+    }
+
+    .bicardsix{
+        color: aliceblue;
+    }
+
+    .read-more-six{
+
+        background-color: #f51f9c;
+        color: aliceblue;
+        border-color: #f51f9c;
+    }
+}
+
+.cardsixri{
+    color: #f51f9c;
+}
+
+.read-more-six{
+    text-decoration: none;
+    color: #f51f9c;
+}
+
+.bicardsix{
+    color: #f51f9c;
+}
+
+
+
+.counts {
+    padding: 70px 0 60px;
+}
+
+.counts .count-box {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.counts .count-box i {
+    font-size: 40px; /* Adjust the font size as needed */
+     /* Adjust the margin to decrease spacing between icon and number */
+}
+
+.counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #0b198f;
+}
+
+.counts .count-box p {
+ /* Optionally make the font bold */
+    margin-left: 15px; 
+    /* Adjust the margin to decrease spacing between number and text */
+}
+
+.counting {
+    color: #00008b;
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+.features .feature-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    transition: 0.3s;
+    height: 100px; /* Adjust the height as needed */
+    color: #00008b;
+    margin-bottom: 10px; /* Add margin to create space between feature boxes */
+}
+
+.features .feature-box i {
+    display: inline-block;
+    padding: 6px;
+    background-color: #ECF3FF;
+    border-radius: 0; /* Set border-radius to 0 for sharp corners */
+    transition: background-color 0.3s;
+    width: 40px; /* Set width */
+    height: 40px; /* Set height */
+    margin-left: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+.features .feature-box h3 {
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 1.4;
+}
+
+.features .feature-box:hover i {
+    background-color: #007aff;
+    color: white;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+
+
+.features .feature-box .d-flex {
+    align-items: center;
+}
+
+.features .feature-box {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+
+.pricing-button  {
+    padding: 10px; /* Adjust the padding as needed */
+    border-radius: 50px;
+    color: #4154f1;
+    transition: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    border: 1px solid #4154f1;
+
+}
+
+.pricing-button:hover{
+    color: white !important;
+    background-color: #4154f1;
+    text-decoration: none !important;
+    
+}
+
+.pricing-card {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease; /* Added transition for the transform property */
+}
+
+
+
+.pricing-card:hover{
+    transform: scale(1.05);
+}
+
+
+.pricing-card {
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 15px; /* Adjust the border-radius as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.pricing-card .btn-buy {
+    margin-top: 15px; /* Adjust the margin as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border-radius: 50px;
+    color: #4154f1;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    border: 1px solid #4154f1;
+    display: inline-block; /* Make the button inline to stay within the box */
+}
+
+
+
+.pricing-card-list{
+    list-style-type: none;
+    margin: 25px;
+    padding-bottom: 10px;
+    padding: 0 0 10px;
+    
+}
+
+
+.crossing {
+    position: relative;
+    color: #ccc; /* Bootstrap secondary color */
+}
+
+.crossing::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Bootstrap secondary color */
+    transform: translateY(-10%);
+}
+
+/* .section-header {
+    text-align: center;
+    padding-bottom: 40px;
+} */
+
+
+.portfolio-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.portfolio-buttons {
+    margin-bottom: 20px;
+}
+
+.portfolio-buttons button {
+    margin: 0 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-image {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-image:hover {
+    transform: scale(1);
+}
+
+.portfolio-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-image:hover .overlay {
+    opacity: 1;
+}
+
+.portfolio-image.hidden {
+    display: none;
+}
+
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+
+.team {
+    background: #fff;
+    padding: 40px 0;
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.team .member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    transition: 0.3s;
+    height: 600px;
+    max-width: 400px;
+}
+
+.team .member .member-info span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #5e5e5e;
+    margin-bottom: 1rem;
+}
+
+.team .member .social {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align icons to the right */
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
+
+.team .member:hover .social {
+    right: 0;
+    opacity: 1;
+}
+
+a {
+    color: #8a8d92;
+    text-decoration: none;
+}
+
+.member:hover {
+    transform: scale(1.1);
+}
+
+.recent-blog-posts .post-box .readmore {
+    display: flex;
+    align-items: left;
+    font-weight: 600;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.recent-blog-posts .post-box .readmore {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.recent-blog-posts .post-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: (0.3s);
+}
+
+.recent-blog-posts .post-box .post-title {
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.recent-blog-posts .post-box .post-date {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(1, 41, 112, 0.6);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.recent-blog-posts .post-box:hover .imageblog {
+    
+    transition: transform 0.5s ease;
+    transform:  scale(1.02);
+    
+}
+
+.recent-blog-posts .post-box:hover .readmore {
+    color: #717ff5;
+
+}
+
+.recent-blog-posts .post-title:hover {
+    color: #f51f9c !important;
+}
+
+
+
+
+.info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+    
+}
+
+.newsletter form {
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #e1ecff;
+}
+
+.newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 30px;
+    margin: 3px;
+    background: #4154f1;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.newsletter form input[type=email] {
+    border: 0; /* Remove border for the email input */
+    flex: 1; /* Take up remaining space */
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Optional: Add Bootstrap classes for styling */
+.form-control {
+    margin-bottom: 0;
+}
+
+
+.footer-top .footer-info .logo {
+    line-height: 0;
+    margin-bottom: 15px;
+}
+
+.footer-top .footer-info .logo span {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+}
+
+.footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Nunito", sans-serif;
+}
+.footer-top .social-links a {
+    font-size: 20px;
+    display: inline-block;
+    color: rgba(1, 41, 112, 0.5);
+    line-height: 0;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+
+h4{
+    font-family: "Nunito", sans-serif;
+}
+
+.footer-top {
+    background: white url(footer-bg.png) no-repeat right top;
+    background-size: contain;
+    border-top: 1px solid #e1ecff;
+    border-bottom: 1px solid #e1ecff;
+    padding: 60px 0 30px 0;
+    max-width: fit-content;
+}
+
+.footer-info a{
+    text-decoration: none;
+    padding: 30px;
+    margin-left: auto;
+}
+
+.footer-links ul {
+    list-style-type: none;
+
+    margin-inline-start: 0px;
+}
+
+.Links{
+
+    text-decoration: none;
+
+
+
+}
+
+.Links:hover{
+    color: #007aff !important;
+    
+    text-decoration: none;
+}
+
+
+.footer-links .row{
+
+    text-align: left;
+    display: block;
+}
+    
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #012970;
+    
+}
+
+
+
+
+
+
+/* TESTIMONIAL */
+
+.testimonials{
+    padding: 40px 0;
+    color: #434343;
+    text-align: center;
+  }
+  .inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial{
+    padding: 30px;
+    box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .name{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .stars{
+    color: #ffc107;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+  
